@@ -21,7 +21,10 @@ Threshold Logic: Configurable thresholds for temperature, humidity, and activity
 
 Swarm Prediction: ML classifiers trained to detect early signs of swarming based on sensor patterns.
 
+
 Hybrid Approach: Combines rule-based thresholds with ML predictions for robust monitoring.
 
 Continuous Improvement: Models retrained periodically with new sensor data to improve accuracy.
+
+This project is an extension of the Smart Beehive Robotics initiative, expanding beyond robotics and Arduino into IoT, mobile applications, and AI/ML.
 
