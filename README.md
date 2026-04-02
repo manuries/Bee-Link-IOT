@@ -4,15 +4,15 @@
 Bee-Link Health Hive Monitor (IoT + AI) is an intelligent beekeeping system that integrates IoT sensors with machine learning to provide real-time hive health monitoring and predictive insights. The system continuously collects environmental data such as temperature, humidity, light intensity, wind, and rain, then applies trained ML models to detect anomalies, predict swarming behavior, and identify potential hive health risks.
 
 🔹 Tech Stack
-Hardware/IoT: ESP32/ESP8266 microcontrollers, BMP280 (temperature/pressure), BH1750 (light), wind and rain sensors.
+Hardware/IoT: ESP32 microcontroller, DHT11(temperature/humidity),Ldr- LM393 (light),soundsensor KY-038,air quality sensor(MQ-135),weight sensor(Load cell+ HX711)
 
-Backend: Python, Firebase Admin SDK, trained ML models (.pkl files).
+Backend: Python, Firebasereal time database(cloud), trained ML models (.pkl files).
 
 Frontend: Flutter (Dart), modern UI with real-time alerts, reports, and visualizations.
 
 Cloud Integration: Firebase for secure data storage, authentication, and notifications.
 
-Version Control: Git + GitHub with .gitignore for secure repo management.
+
 
 🔹 Machine Learning & Threshold Training
 Model Training: Hive health prediction models trained on historical sensor datasets.
@@ -25,5 +25,3 @@ Hybrid Approach: Combines rule-based thresholds with ML predictions for robust m
 
 Continuous Improvement: Models retrained periodically with new sensor data to improve accuracy.
 
-⚠️ Security Note
-Sensitive files such as serviceAccountKey.json and Firebase configs are excluded from version control for safety.
